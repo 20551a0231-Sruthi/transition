@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #translate{
+            background-color: pink;
+            width: 150px;
+            height: 150px;
+            border: solid blueviolet;
+            display: inline-block;
+            transition: all ;
+            transition-duration: 5s;
+        }
+        #translate:hover{
+            transform: translate(50px,50px);
+            background-color: rgb(210, 89, 210);
+        }
+
+        #scale{  
+            background-color: rgb(19, 241, 112);
+            width: 150px;
+            height: 150px;
+            border: solid rgb(238, 15, 108); 
+            display: inline-block;
+            transition: all ;
+            transition-duration: 5s;
+        }
+        #scale:hover{
+            width: 300px;
+            background-color: rgb(118, 128, 169);
+        }
+
+        #rotate{  
+            background-color: rgb(221, 136, 17);
+            width: 150px;
+            height: 150px;
+            border: solid rgb(21, 26, 20); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #rotate:hover{
+            transform: rotate(45deg);
+            height: 250px;
+            background-color: rgb(108, 195, 197);
+        }
+
+        #ease-in{  
+            background-color: rgb(58, 17, 221);
+            width: 150px;
+            border: solid rgb(226, 112, 25); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #ease-in:hover{
+            width: 300px;
+            background-color: rgb(181, 189, 113);
+            transition: ease-in;
+            transition-duration: 5s;
+        }
+
+        #ease-out{  
+            background-color: rgb(58, 17, 221);
+            width: 150px;
+            border: solid rgb(226, 112, 25); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #ease-out:hover{
+            width: 300px;
+            background-color: rgb(181, 189, 113);
+            transition: ease-in;
+            transition-duration: 5s;
+        }
+        #ease-in-out{  
+            background-color: rgb(58, 17, 221);
+            width: 150px;
+            border: solid rgb(226, 112, 25); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #ease-in-out:hover{
+            width: 300px;
+            background-color: rgb(181, 189, 113);
+            transition: ease-in;
+            transition-duration: 5s;
+        }
+        #ease{  
+            background-color: rgb(58, 17, 221);
+            width: 150px;
+            border: solid rgb(226, 112, 25); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #ease:hover{
+            width: 300px;
+            background-color: rgb(181, 189, 113);
+            transition: ease-in;
+            transition-duration: 5s;
+        }
+        #linear{  
+            background-color: rgb(58, 17, 221);
+            width: 150px;
+            border: solid rgb(226, 112, 25); 
+            display: inline-block;
+            transition: all;
+            transition-duration: 5s;
+        }
+        #linear:hover{
+            width: 300px;
+            background-color: rgb(181, 189, 113);
+            transition: ease-in;
+            transition-duration: 5s;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="translate">Translate</h2> <br>
+    <h2 id="scale">Scale</h2> <br>
+    <h2 id="rotate">Rotate</h2> <br>
+    <h2 id="ease-in">ease-in</h2> <br>
+    <h2 id="ease-out">ease-out</h2> <br>
+    <h2 id="ease-in-out">ease-in-out</h2> <br>
+    <h2 id="ease">ease</h2> <br>
+    <h2 id="linear">linear</h2> <br>
+</body>
+</html>
